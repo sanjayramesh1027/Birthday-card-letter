@@ -1,7 +1,7 @@
 # 🎂 Happy Birthday Letter
 
 A cute, interactive birthday letter made with HTML and CSS.  
-It opens like an envelope and reveals a heartfelt message with a cat sticker for charm 😽💌
+It opens like an envelope and reveals a heartfelt message with a cat sticker for charm 🐱💌
 
 ---
 
@@ -9,7 +9,7 @@ It opens like an envelope and reveals a heartfelt message with a cat sticker for
 
 - When you open the page, you’ll see a virtual envelope.
 - Click it, and it "opens" to reveal a personal birthday message inside.
-- There's a cute cat sticker placed in the corner for decoration.
+- There's a cute cat sticker and a birthday cake image for decoration.
 - Everything runs in the browser — no setup or installation needed.
 
 ---
@@ -26,12 +26,13 @@ It opens like an envelope and reveals a heartfelt message with a cat sticker for
 3. **Make sure you have these files in the same folder:**
    ```
    birthday-letter/
-   ├─ index.html
-   └─ hello-kitty.png
+   ├─ birthday-card.html
+   ├─ hello-kitty.png
+   └─ cake.png
    ```
 
 4. **To view it:**
-   - Double-click `index.html`
+   - Double-click `birthday-card.html`
    - It will open in your web browser!
 
 ---
@@ -62,7 +63,7 @@ Look for the `<p class="letter-text">` section and replace the text with your cu
 
 ---
 
-### 😽 Replace the sticker image
+### 🐱 Replace the cat sticker
 You can use any PNG image instead of the default cat:
 
 1. Rename your new image to `hello-kitty.png`
@@ -71,6 +72,11 @@ You can use any PNG image instead of the default cat:
    ```html
    <img src="your-image-name.png" alt="Your Alt Text">
    ```
+
+---
+
+### 🎂 Replace or update the cake image
+If your design uses a birthday cake image, make sure it's named `cake.png` or update the corresponding `<img>` tag in your HTML.
 
 ---
 
@@ -88,4 +94,4 @@ You can even generate a **QR code** from the link using [qr-code-generator.com](
 ---
 
 ## 💡 Tip
-Make sure you keep the HTML and images **in the same folder** — or the sticker won’t show up!
+Make sure you keep the HTML and all image files **in the same folder** — or they won’t show up!
