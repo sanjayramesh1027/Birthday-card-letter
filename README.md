@@ -1,6 +1,6 @@
 # 🎂 Happy Birthday Letter
 
-A cute, interactive birthday letter made with HTML and CSS.  
+A cute, interactive birthday letter made with HTML and IMG.  
 It opens like an envelope and reveals a heartfelt message with a cat sticker for charm 🐱💌
 
 ---
